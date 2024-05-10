@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="adopt.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <!-- logo of hotel -->
+    <div> 
+        <img id="logo" src="image/logo.png" alt="Logo of Hotel Perrito">
+    </div>
+    <div id="wallpaper">
+        <img src="image/adoptwallpaper.png" alt="adoption page" class="wallpaper">
+    </div>
+
+    <div class="navbar">
+        <nav>
+            <a href="index.html">Perrito</a>
+            <a href="service.html">Service</a>
+            <a href="community.html">Pet Community</a>
+            <a href="adopt.html">Adoption</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <div class="info">
+        <div class="info1">
+            <p><i>Looking to adopt a pet? We have many dogs and cats that are in need of a loving home!</i></p>
+        </div>
+    </div>
+
+    <div id="procedure">
+        <div class="pro1">
+            <img src="image/adoptpage.png" alt="procedure" >
+        </div>
+        <div class="adopt-cat">
+            <img src="image/adopt1.png" alt="dog adoption">  
+        </div>
+        <div class="adopt-dog">
+            <img src="image/adopt2.png" alt="cat adoption">
+        </div>
+    </div>
+
+    <div class="info">
+        <p class="info2"><i><strong>&dollar;100</strong> is being charged for <strong>every perrito adopted</strong>, as a donation to the animal shelter!</i></p>
+    </div>
+
+    <div id="learnmore"> 
+        <div id="header">
+            <h1 class="h1" style=" text-shadow: 1px 1px 4px rgb(0, 0, 0);"> &#10084; Pawfect Corner &#10084;</h1> 
+            <h2 class="h2">Happy rescued babies!</h2>
+        </div>
+        <div id="video">
+            <div class="video">
+                <video id="myvideo" autoplay src="image/adopt_video.mp4"></video>
+            </div>
+            <div id="button">
+                <button onclick="toggleVideo()" class="button1">Play/Pause</button> <br>
+                <button onclick="setVolumeTo50()" class="button2"><small><i>V40</i></small></button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleVideo() {
+            var video = document.getElementById("myvideo"); // Corrected ID
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+        
+        function setVolumeTo50() {
+            var video = document.getElementById("myvideo"); // Corrected ID
+            if (video) {
+                video.volume = 0.4; // 0.4 represents 40% volume
+            }
+        }
+    </script>
+
+    <hr>
+
+    <footer>
+        <!-- Font style is italic and font size is small -->
+        <p><i><small>&copy;2024 Hotel Perrito. All rights reserved.</small></i></p>
+        <p><i><small><a href="mailto:hotelperrito@gmail.com">Email: hotelperrito@gmail.com</a></small></i></p>
+        <p><i><small>Last Updated: April 21, 2024</small></i></p>
+    </footer>
+</body>
+</html>

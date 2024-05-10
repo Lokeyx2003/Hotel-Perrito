@@ -1,0 +1,224 @@
+body{
+    background-color:#f1f0e2;
+}
+
+#logo{
+    height: 100px;
+    width: 120px;
+    margin-left: 50px;  
+}
+
+
+h1{
+    font-family:  'Times New Roman', Times, sanserif;
+    font-size: 5em;
+    color: #505c45;
+    background-color: #dee1c6;
+    border-radius: 40px 40px 0 0;
+    text-align: center;
+    width: 80%;
+    margin-top:0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+}
+
+nav{
+    background-color: #dee1c6;
+    border-radius: 0 0 40px 40px;
+    text-align: right;
+    width: 80%;
+    margin-top:0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Courier Prime", monospace;
+    font-size: medium;
+    font-weight:bolder;
+    color: #505c45;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+nav a:visited {
+    /* a hyperlink that has been visited */
+    color: #56ab8a;
+}
+
+nav a:hover {
+    /* triggered when the mouse moves over the hyperlink */
+    color: #01d6ff;
+}
+
+nav a:focus {
+    /* triggered when the hyperlink has focus */
+    color: #cb2127;
+} 
+
+nav a:active {
+    /* triggered when the hyperlink is being clicked */
+    color: #005dfe;
+}
+
+#p1{
+    font-family: fantasy;
+    font-size: 1.5em;
+    color: #505c45;
+    background-color: #e8f0cc;
+    border-radius: 40px;
+    text-align: center;
+    width: 80%;
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    
+#h21{
+    font-family: fantasy;
+    color: #505c45;
+    background-color: #e9eec5;
+    border-radius: 40px 40px 0 0;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 3em;
+    
+
+}
+
+#p2{
+    font-family: fantasy;
+    font-size: 1.5em;
+    color: #505c45;
+    background-color: #e9eec5;
+    border-radius: 0 0 40px 40px ;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#h22{
+    font-family: fantasy;
+    color: #505c45;
+    background-color: #e8f0cc;
+    border-radius: 40px 40px 0 0 ;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 3em;
+}
+
+#p3{
+    font-family: fantasy;
+    font-size: 1.5em;
+    color: #505c45;
+    background-color: #e8f0cc;
+    border-radius: 0 0 40px 40px ;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#h23{
+    font-family: fantasy;
+    color: #505c45;
+    background-color: #e9eec5;
+    border-radius: 40px 40px 0 0 ;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 3em;
+}
+
+#p4{
+    font-family: fantasy;
+    font-size: 1.5em;
+    color: #505c45;
+    background-color: #e9eec5;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#map{
+    background-color: #e9eec5;
+    border-radius: 0 0 40px 40px ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+#photo{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    font-family: "Courier Prime", monospace;
+    font-size:large;
+    font-weight:bolder;
+    color: #505c45;
+    text-align: right;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+hr{
+    border-width: 0.5px;
+    background-color: #505c45;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* remove underline + add color */
+footer a{
+    text-decoration: none;
+    color: #505c45;
+}
+
+footer a:hover{
+    /* triggered when the mouse moves over the hyperlink */
+    color: #01d6ff;
+}

@@ -1,0 +1,167 @@
+body{
+    background-color:#f1f0e2;
+    
+}
+
+#logo{
+    height: 100px;
+    width: 120px;
+    margin-left: 50px;
+}
+
+.photo{
+    display: block;
+    width: 50%;
+    margin-left: 150px;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+figure{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family:  'Times New Roman', Times, sanserif;
+    font-size: 5em;
+    color: #505c45;
+    border: dashed #dee1c6;
+    text-align: center;
+    width: 80%;
+    margin-top:0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav{
+    background-color: #dee1c6;
+    text-align: right;
+    width: 80%;
+    margin-top:0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Courier Prime", monospace;
+    font-size: medium;
+    font-weight:bolder;
+    color: #505c45;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+nav a:visited {
+    /* a hyperlink that has been visited */
+    color: #56ab8a;
+}
+
+nav a:hover {
+    /* triggered when the mouse moves over the hyperlink */
+    color: #01d6ff;
+}
+
+nav a:focus {
+    /* triggered when the hyperlink has focus */
+    color: #cb2127;
+} 
+
+nav a:active {
+    /* triggered when the hyperlink is being clicked */
+    color: #005dfe;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: #505c45;
+    border-bottom: dashed #505c45;
+    border-top: dashed #505c45;
+    text-align: center;  
+    width: 80%;
+    margin-top:2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: dotted #62644e ;
+    color: #505c45;
+}
+
+
+#content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #505c45;
+}
+
+#content2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #505c45;
+}
+
+#content3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #505c45;
+}
+
+li {
+    padding-bottom: 10px; 
+}
+
+p{line-height: 1.5;}
+
+footer{
+    font-family: "Courier Prime", monospace;
+    font-size:large;
+    font-weight:bolder;
+    color: #505c45;
+    text-align: right;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+hr{
+    border-width: 0.5px;
+    background-color: #505c45;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+footer a{
+    text-decoration: none;
+    color: #505c45;
+}
+
+footer a:hover{
+    /* triggered when the mouse moves over the hyperlink */
+    color: #01d6ff;
+}
